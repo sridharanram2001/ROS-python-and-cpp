@@ -1,0 +1,8 @@
+prefix=/home/ramprakash/My_workspace/devel
+
+Name: ros_service_assignment
+Description: Description of ros_service_assignment
+Version: 0.0.0
+Cflags: -I/home/ramprakash/My_workspace/devel/include -I/home/ramprakash/My_workspace/src/ros_service_assignment/include
+Libs: -L${prefix}/lib -lros_service_assignment
+Requires: message_runtime roscpp rospy std_msgs

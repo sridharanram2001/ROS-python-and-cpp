@@ -1,0 +1,8 @@
+prefix=/home/ramprakash/My_workspace/install
+
+Name: ros_basic
+Description: Description of ros_basic
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

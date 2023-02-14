@@ -1,0 +1,8 @@
+prefix=/home/ramprakash/My_workspace/devel
+
+Name: My_programs_package
+Description: Description of My_programs_package
+Version: 0.0.0
+Cflags: -I/home/ramprakash/My_workspace/devel/include -I/home/ramprakash/My_workspace/src/My_programs_package/include
+Libs: -L${prefix}/lib -lMy_programs_package
+Requires: roscpp rospy std_msgs message_runtime
